@@ -1,8 +1,28 @@
-h1 {
-  text-align: center;
-  font-size: 10px;
+:root {
+  --white: #ffffff;
+  --black: #212121;
+  --gray: #757575;
+  --primary: #695e93;
+  --secondary: #484064;
+
+  --main-font: 3.8rem;
 }
 
-span {
-  font-size: 10px;
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+}
+
+.main-title {
+  text-align: center;
+  font-size: var(--main-font);
+  font-family: "Open Sans", sans-serif;
+}
+
+.main-title span {
+  font-size: 2rem;
+  color: blue;
 }
