@@ -4,8 +4,6 @@
   --gray: #757575;
   --primary: #695e93;
   --secondary: #484064;
-
-  --main-font: 3.8rem;
 }
 
 html {
@@ -14,12 +12,12 @@ html {
 
 body {
   font-size: 16px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .main-title {
   text-align: center;
-  font-size: var(--main-font);
-  font-family: "Open Sans", sans-serif;
+  font-size: 3.8rem;
 }
 
 .main-title span {
