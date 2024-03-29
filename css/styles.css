@@ -16,11 +16,28 @@ body {
 }
 
 .main-title {
-  text-align: center;
   font-size: 3.8rem;
+  text-align: center;
 }
 
 .main-title span {
   font-size: 2rem;
-  color: blue;
+}
+
+.container {
+  margin: 5rem auto;
+  width: 120rem;
+}
+
+.nav-background {
+  background-color: var(--secondary);
+}
+
+.main-navigation {
+  padding: 1rem;
+}
+
+.main-navigation a {
+  color: var(--white);
+  text-decoration: none;
 }
