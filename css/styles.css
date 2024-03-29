@@ -34,10 +34,12 @@ body {
 }
 
 .main-navigation {
+  display: flex;
+  justify-content: space-evenly;
   padding: 1rem;
 }
 
 .main-navigation a {
-  color: var(--white);
   text-decoration: none;
+  color: var(--white);
 }
