@@ -107,3 +107,8 @@ h3 {
 .content-center-title p {
   color: var(--white);
 }
+
+.location {
+  display: flex;
+  align-items: flex-end;
+}
