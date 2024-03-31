@@ -7,7 +7,14 @@
 }
 
 html {
+  box-sizing: border-box;
   font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -36,6 +43,7 @@ body {
 .main-navigation {
   display: flex;
   flex-direction: column;
+  padding: 0.5rem;
 }
 
 @media (min-width: 768px) {
@@ -57,4 +65,20 @@ body {
 .main-navigation a:hover {
   background-color: var(--primary);
   color: var(--secondary);
+}
+
+.center-title {
+  position: relative;
+  height: 450px;
+  padding: 20px;
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content-center-title {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: red;
 }
