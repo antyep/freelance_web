@@ -25,8 +25,8 @@ body {
 }
 
 .container {
+  max-width: 120rem;
   margin: 5rem auto;
-  width: 120rem;
 }
 
 .nav-background {
@@ -35,14 +35,22 @@ body {
 
 .main-navigation {
   display: flex;
-  justify-content: space-evenly;
-  padding: 1rem;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .main-navigation {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
 
 .main-navigation a {
-  text-decoration: none;
+  display: block;
+  text-align: center;
   font-size: 2rem;
   font-weight: bold;
+  text-decoration: none;
   color: var(--white);
 }
 
