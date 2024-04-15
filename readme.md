@@ -1,2 +1,1 @@
-main color: #695E93
-/_ 1 rem = 10px _/
+https://main--flourishing-babka-236470.netlify.app/
