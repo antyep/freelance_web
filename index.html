@@ -176,39 +176,42 @@
         </section>
       </div>
       <!-- Services -->
-    </main>
 
-    <section>
-      <h2 class="service">Contact</h2>
-      <form>
-        <fieldset>
-          <div>
+      <section>
+        <h2 class="service">Contact</h2>
+        <form class="contact-form">
+          <fieldset>
             <legend>Contact me filling these fields</legend>
-            <label for="Name">Name</label>
-            <input type="text" placeholder="Your name" />
-          </div>
 
-          <div>
-            <label for="Phone number">Phone Number</label>
-            <input type="number" placeholder="Your phone number" />
-          </div>
+            <div class="fields-container">
+              <div class="field">
+                <label for="Name">Name</label>
+                <input class="input-text" type="text" placeholder="Your name" />
+              </div class="field">
 
-          <div>
-            <label for="email">Email</label>
-            <input type="email" placeholder="Your email" />
-          </div>
+              <div class="field">
+                <label for="Phone number">Phone Number</label>
+                <input class="input-text" type="number" placeholder="Your phone number" />
+              </div class="field">
 
-          <div>
-            <label for="Message">Message</label>
-            <textarea placeholder="Your message"></textarea>
-          </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input class="input-text" type="email" placeholder="Your email" />
+              </div class="field">
 
-          <div>
-            <button type="submit" value="Send">Send</button>
-          </div>
-        </fieldset>
-      </form>
-    </section>
+              <div class="field">
+                <label for="Message">Message</label>
+                <textarea class="input-text" placeholder="Your message"></textarea>
+              </div>
+            </div> <!-- Fields container-->
+
+            <div class="aligner flex">
+              <button class="button w-sm-100" type="submit" value="Send">Send</button>
+            </div>
+          </fieldset> 
+        </form>
+      </section>
+    </main>
 
     <footer>
       <p>All rights reserved.</p>
