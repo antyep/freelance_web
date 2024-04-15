@@ -1,1 +1,1 @@
-https://main--flourishing-babka-236470.netlify.app/
+https://freelancerweb-antyep.netlify.app
