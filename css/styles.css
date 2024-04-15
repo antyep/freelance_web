@@ -10,6 +10,7 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  scroll-snap-type: y mandatory;
 }
 
 *,
@@ -174,6 +175,15 @@ h3 {
 .content-center-title .location {
   display: flex;
   align-items: flex-end;
+}
+
+/* Scroll snap */
+
+.services,
+.main-navigation,
+.contact-form {
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
 }
 
 /* Services */
